@@ -1,5 +1,8 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')  # No-display backend
 
 # Crea datos
 players_data = {
@@ -14,6 +17,12 @@ players_data = {
 }
 
 df = pd.DataFrame(players_data)
+
+# Crear variables derivadas
+df['Potential_Gap'] = df['Market_Value_M'] - df['Current_Value_M']
+df['Potential_Pct'] = (df['Potential_Gap'] / df['Current_Value_M'] * 100).round(2)
+df['Goals_Per_App'] = (df['Goals'] / df['Apps'].replace(0, 1)).round(3)
+df['Assists_Per_App'] = (df['Assists'] / df['Apps'].replace(0, 1)).round(3)
 
 print("="*50)
 print("LALIGA TALENT FACTORY ANALYTICS")
@@ -40,6 +49,51 @@ print("\n--- TOP 10 JUGADORES POR VALOR ---")
 top_10 = df.nlargest(10, 'Current_Value_M')[['Player', 'Age', 'Position', 'Current_Value_M']]
 print(top_10)
 
-# Guarda el dataframe
-# df.to_csv('../data/raw_players.csv', index=False)  # Comentada
+print("\n--- VARIABLES DERIVADAS (PRIMERAS 5) ---")
+print(df[['Player', 'Potential_Gap', 'Potential_Pct', 'Goals_Per_App', 'Assists_Per_App']].head())
+
+# ===== VISUALIZACIÓN 1: Edad vs Valor =====
+plt.figure(figsize=(10, 6))
+plt.scatter(df['Age'], df['Current_Value_M'], s=100, alpha=0.6, c=df['Current_Value_M'], cmap='viridis')
+plt.xlabel('Age', fontsize=12)
+plt.ylabel('Current Value (M€)', fontsize=12)
+plt.title('Age vs Current Market Value - LaLiga Talent', fontsize=14, fontweight='bold')
+plt.colorbar(label='Value (M€)')
+plt.grid(True, alpha=0.3)
+plt.tight_layout()
+plt.savefig('dashboards/age_vs_value.png', dpi=300, bbox_inches='tight')
+print("\n✓ Gráfica guardada: dashboards/age_vs_value.png")
+plt.close()
+
+# ===== VISUALIZACIÓN 2: Top 10 Talentos =====
+top_10_data = df.nlargest(10, 'Current_Value_M')
+plt.figure(figsize=(12, 6))
+plt.barh(top_10_data['Player'], top_10_data['Current_Value_M'], color='steelblue')
+plt.xlabel('Current Value (M€)', fontsize=12)
+plt.title('Top 10 Most Valuable Players - LaLiga Talent Factory', fontsize=14, fontweight='bold')
+plt.grid(True, alpha=0.3, axis='x')
+plt.tight_layout()
+plt.savefig('dashboards/top_10_talent.png', dpi=300, bbox_inches='tight')
+print("✓ Gráfica guardada: dashboards/top_10_talent.png")
+plt.close()
+
+# ===== VISUALIZACIÓN 3: Potential Gap =====
+potential_data = df.nlargest(12, 'Potential_Gap')[['Player', 'Potential_Gap']].sort_values('Potential_Gap')
+plt.figure(figsize=(12, 7))
+colors = ['green' if x > 0 else 'red' for x in potential_data['Potential_Gap']]
+plt.barh(potential_data['Player'], potential_data['Potential_Gap'], color=colors, alpha=0.7)
+plt.xlabel('Potential Gap (M€)', fontsize=12)
+plt.title('Top 12 Players by Growth Potential - Market Value vs Current', fontsize=14, fontweight='bold')
+plt.grid(True, alpha=0.3, axis='x')
+plt.tight_layout()
+plt.savefig('dashboards/potential_gap.png', dpi=300, bbox_inches='tight')
+print("✓ Gráfica guardada: dashboards/potential_gap.png")
+plt.close()
+
+# Guarda datos
+df.to_csv('data/raw_players.csv', index=False)
 print("\n✓ Datos guardados en: data/raw_players.csv")
+
+print("\n" + "="*50)
+print("ANÁLISIS COMPLETADO - DAY 3 ✓")
+print("="*50)
