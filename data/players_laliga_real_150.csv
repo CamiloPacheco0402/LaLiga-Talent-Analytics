@@ -1,0 +1,109 @@
+Player,Age,Position,Team,Current_Value_M,Market_Value_M,Apps,Goals,Assists,Potential_Gap,Potential_Pct,Goals_Per_App,Assists_Per_App,Talent_Score,Cluster
+Jude Bellingham,21,CM,Real Madrid,90,110,28,8,4,20,22.22,0.29,0.14,68.38,2
+Vinícius Jr,24,LW,Real Madrid,85,95,35,15,8,10,11.76,0.43,0.23,100.0,2
+Rodrygo Goes,23,RW,Real Madrid,65,75,32,11,7,10,15.38,0.34,0.22,80.07,2
+Aurélien Tchouaméni,24,CM,Real Madrid,70,80,30,2,1,10,14.29,0.07,0.03,31.88,1
+Eduardo Camavinga,21,CM,Real Madrid,55,70,24,1,2,15,27.27,0.04,0.08,31.27,1
+Brahim Díaz,25,RW,Real Madrid,45,55,28,9,5,10,22.22,0.32,0.18,65.82,2
+Luka Modrić,39,CM,Real Madrid,20,18,22,2,3,-2,-10.0,0.09,0.14,21.16,1
+Toni Kroos,34,CM,Real Madrid,25,22,25,1,4,-3,-12.0,0.04,0.16,20.3,1
+Federico Valverde,26,CM,Real Madrid,60,70,31,3,2,10,16.67,0.1,0.06,36.83,2
+Nacho Fernández,34,CB,Real Madrid,15,12,28,1,0,-3,-20.0,0.04,0.0,5.72,0
+Eder Militão,25,CB,Real Madrid,55,65,30,2,0,10,18.18,0.07,0.0,27.32,1
+Antonio Rüdiger,31,CB,Real Madrid,35,32,28,1,0,-3,-8.57,0.04,0.0,12.67,0
+David Alaba,32,CB,Real Madrid,30,28,26,1,1,-2,-6.67,0.04,0.04,14.81,0
+Lucas Vázquez,34,RB,Real Madrid,12,10,24,0,1,-2,-16.67,0.0,0.04,4.82,0
+Ferland Mendy,28,LB,Real Madrid,28,32,18,0,2,4,14.29,0.0,0.11,18.74,1
+Andriy Lunin,25,GK,Real Madrid,18,22,10,0,0,4,22.22,0.0,0.0,13.59,0
+Thibaut Courtois,32,GK,Real Madrid,25,20,25,0,0,-5,-20.0,0.0,0.0,3.88,0
+Isco Alarcón,32,LW,Real Madrid,10,8,8,1,1,-2,-20.0,0.12,0.12,8.41,0
+Dani Ceballos,27,CM,Real Madrid,20,22,12,0,1,2,10.0,0.0,0.08,13.4,0
+Javier Sánchez,18,CM,Real Madrid,8,12,3,0,0,4,50.0,0.0,0.0,18.92,1
+Hugo Bueno,20,LB,Real Madrid,6,10,2,0,0,4,66.67,0.0,0.0,22.9,1
+Jesús Vallejo,25,CB,Real Madrid,10,12,5,0,0,2,20.0,0.0,0.0,11.43,0
+Raúl Asencio,21,CB,Real Madrid,7,12,3,0,0,5,71.43,0.0,0.0,24.36,1
+Mario Martín,20,ST,Real Madrid,5,10,1,0,0,5,100.0,0.0,0.0,31.47,1
+Álvaro García,22,LW,Real Madrid,8,14,4,1,0,6,75.0,0.25,0.0,32.06,1
+Fran García,25,LB,Real Madrid,12,16,6,0,1,4,33.33,0.0,0.17,17.96,1
+Robert Lewandowski,36,ST,Barcelona,30,25,28,18,5,-5,-16.67,0.64,0.18,86.43,2
+Gavi,20,CM,Barcelona,60,75,18,1,2,15,25.0,0.06,0.11,31.93,1
+Pedri,21,CM,Barcelona,65,80,25,3,4,15,23.08,0.12,0.16,45.03,2
+Ansu Fati,21,LW,Barcelona,50,65,16,4,2,15,30.0,0.25,0.12,43.63,2
+Ferrán Torres,24,RW,Barcelona,45,55,22,6,3,10,22.22,0.27,0.14,50.05,2
+Ousmane Dembélé,27,RW,Barcelona,40,48,24,5,4,8,20.0,0.21,0.17,47.04,2
+Sergi Roberto,32,RB,Barcelona,12,10,20,0,1,-2,-16.67,0.0,0.05,4.82,0
+Jules Koundé,25,CB,Barcelona,50,58,28,1,0,8,16.0,0.04,0.0,22.08,1
+Alejandro Balde,21,LB,Barcelona,28,38,15,1,1,10,35.71,0.07,0.07,25.94,1
+Gerard Piqué,37,CB,Barcelona,8,5,16,1,0,-3,-37.5,0.06,0.0,0.0,0
+Pau Cubarsí,17,CB,Barcelona,4,10,2,0,0,6,150.0,0.0,0.0,44.42,2
+Andreas Christensen,28,CB,Barcelona,18,20,22,1,0,2,11.11,0.05,0.0,14.61,0
+Héctor Bellerín,29,RB,Barcelona,10,12,10,0,0,2,20.0,0.0,0.0,11.43,0
+Ilkay Gündoğan,33,CM,Barcelona,15,13,18,2,2,-2,-13.33,0.11,0.11,16.93,0
+Sergio Busquets,35,CM,Barcelona,10,8,16,0,1,-2,-20.0,0.0,0.06,3.55,0
+Marc-André ter Stegen,32,GK,Barcelona,20,18,28,0,0,-2,-10.0,0.0,0.0,5.52,0
+Iñaki Peña,24,GK,Barcelona,8,12,3,0,0,4,50.0,0.0,0.0,18.92,1
+Oriol Romeu,30,CM,Barcelona,8,8,8,0,0,0,0.0,0.0,0.0,5.78,0
+Pablo Torre,21,CM,Barcelona,10,18,6,1,0,8,80.0,0.17,0.0,32.72,1
+Lamine Yamal,17,RW,Barcelona,12,25,4,1,1,13,108.33,0.25,0.25,44.24,2
+Raphael Dias Belloli,20,RB,Barcelona,6,12,2,0,0,6,100.0,0.0,0.0,31.67,1
+João Félix,25,LW,Atlético Madrid,45,55,22,7,3,10,22.22,0.32,0.14,53.99,2
+Ángel Correa,29,RW,Atlético Madrid,35,38,28,8,4,3,8.57,0.29,0.14,53.96,2
+Antoine Griezmann,33,ST,Atlético Madrid,28,25,24,6,3,-3,-10.71,0.25,0.12,37.79,2
+Rodrigo De Paul,30,CM,Atlético Madrid,32,35,26,2,4,3,9.38,0.08,0.15,31.12,1
+Koke,31,CM,Atlético Madrid,25,23,28,2,3,-2,-8.0,0.07,0.11,22.4,1
+Axel Witsel,35,CM,Atlético Madrid,10,8,18,0,1,-2,-20.0,0.0,0.06,3.55,0
+Giménez,28,CB,Atlético Madrid,42,48,28,2,0,6,14.29,0.07,0.0,23.73,1
+Stefan Savić,34,CB,Atlético Madrid,12,10,25,1,0,-2,-16.67,0.04,0.0,6.01,0
+Reinildo Mandava,28,LB,Atlético Madrid,18,20,22,0,1,2,11.11,0.0,0.05,13.3,0
+Nahuel Molina,25,RB,Atlético Madrid,32,40,26,0,3,8,25.0,0.0,0.12,24.97,1
+Samuel Lino,23,LW,Atlético Madrid,20,28,12,2,1,8,40.0,0.17,0.08,30.09,1
+Axel Slimani,33,ST,Atlético Madrid,8,6,10,2,0,-2,-25.0,0.2,0.0,8.41,0
+Giuliano Simeone,20,ST,Atlético Madrid,5,12,2,0,0,7,140.0,0.0,0.0,41.98,2
+Conor Coady,31,CB,Atlético Madrid,6,5,8,0,0,-1,-16.67,0.0,0.0,1.01,0
+Ivo Grbić,28,GK,Atlético Madrid,5,6,3,0,0,1,20.0,0.0,0.0,10.45,0
+Jan Oblak,31,GK,Atlético Madrid,20,18,25,0,0,-2,-10.0,0.0,0.0,5.52,0
+Javi Guerra,23,CM,Valencia,25,35,20,2,1,10,40.0,0.1,0.05,30.16,1
+Bryan Zaragoza,21,RW,Valencia,15,25,14,3,2,10,66.67,0.21,0.14,42.55,2
+Mouctar Diallo,25,CB,Valencia,18,22,18,1,0,4,22.22,0.06,0.0,17.66,0
+Omar Alderete,27,CB,Valencia,14,16,16,0,0,2,14.29,0.0,0.0,10.72,0
+Giorgi Gocholeishvili,24,LB,Valencia,10,14,12,0,1,4,40.0,0.0,0.08,19.32,1
+Jesús Luis Vázquez,27,RB,Valencia,10,12,14,0,0,2,20.0,0.0,0.0,11.43,0
+Peter Etebo,28,CM,Valencia,10,11,10,0,0,1,10.0,0.0,0.0,8.8,0
+Marcos André,26,ST,Valencia,8,12,8,1,0,4,50.0,0.12,0.0,23.78,1
+Edinson Cavani,37,ST,Valencia,3,2,6,2,1,-1,-33.33,0.33,0.17,9.57,0
+Yarek Gasiorowski,19,CM,Valencia,3,8,2,0,0,5,166.67,0.0,0.0,48.59,2
+Alexander Sørloth,25,ST,Real Sociedad,40,50,26,14,3,10,25.0,0.54,0.12,79.63,2
+Mikel Oyarzabal,27,LW,Real Sociedad,35,42,24,6,5,7,20.0,0.25,0.21,52.5,2
+Takefusa Kubo,23,RW,Real Sociedad,32,42,22,5,4,10,31.25,0.23,0.18,48.69,2
+Martín Zubimendi,25,CM,Real Sociedad,38,50,24,2,2,12,31.58,0.08,0.08,32.88,2
+Igor Zubeldia,28,CB,Real Sociedad,16,18,20,1,0,2,12.5,0.05,0.0,14.59,0
+Óscar Gil,22,RB,Real Sociedad,10,16,14,0,2,6,60.0,0.0,0.14,27.2,1
+Aihen Muñoz,25,LB,Real Sociedad,14,18,18,0,1,4,28.57,0.0,0.06,17.1,0
+Ander Guevara,23,CM,Real Sociedad,12,18,12,1,0,6,50.0,0.08,0.0,24.05,1
+Álex Baena,25,CM,Villarreal,40,50,28,4,6,10,25.0,0.14,0.21,49.41,2
+Yeremy Pino,21,LW,Villarreal,28,38,20,3,3,10,35.71,0.15,0.15,38.82,2
+Nicolás Pepe,30,RW,Villarreal,22,24,18,5,2,2,9.09,0.28,0.11,36.29,2
+Pau Torres,27,CB,Villarreal,30,35,26,1,0,5,16.67,0.04,0.0,18.3,1
+Raúl Albiol,38,CB,Villarreal,6,4,20,1,0,-2,-33.33,0.05,0.0,0.57,0
+Nabil Fekir,30,LW,Real Betis,25,22,20,5,4,-3,-12.0,0.25,0.2,36.2,2
+Ayoze Pérez,32,ST,Real Betis,8,6,12,3,1,-2,-25.0,0.25,0.08,14.98,0
+William Carvalho,31,CM,Real Betis,10,9,16,0,0,-1,-10.0,0.0,0.0,3.55,0
+Sergio Canales,32,CM,Real Betis,8,7,14,1,2,-1,-12.5,0.07,0.14,11.96,0
+Youssef En-Nesyri,26,ST,Sevilla,30,38,22,10,2,8,26.67,0.45,0.09,61.14,2
+Lucas Ocampos,30,RW,Sevilla,12,13,14,2,2,1,8.33,0.14,0.14,22.43,1
+Gonzalo Montiel,26,RB,Sevilla,14,18,18,0,2,4,28.57,0.0,0.11,19.72,1
+Muriqi Vedat,29,ST,Mallorca,14,16,18,6,1,2,14.29,0.33,0.06,37.4,2
+Javier Rodríguez,24,LW,Mallorca,8,12,10,2,1,4,50.0,0.2,0.1,30.75,1
+Manu Morlanes,22,CM,Mallorca,6,10,8,0,0,4,66.67,0.0,0.0,22.9,1
+Carles Pérez,26,RW,Getafe,12,15,16,3,2,3,25.0,0.19,0.12,30.75,1
+Mason Greenwood,22,RW,Getafe,18,28,12,4,1,10,55.56,0.33,0.08,42.46,2
+Enes Ünal,26,ST,Getafe,10,13,14,5,1,3,30.0,0.36,0.07,37.84,2
+Iago Aspas,36,ST,Celta Vigo,10,8,18,8,2,-2,-20.0,0.44,0.11,38.24,2
+Williot Swedberg,21,LW,Celta Vigo,6,12,6,1,0,6,100.0,0.17,0.0,37.19,2
+Jørgen Strand Larsen,22,ST,Celta Vigo,8,14,8,3,0,6,75.0,0.38,0.0,40.34,2
+Artem Dovbyk,26,ST,Girona,22,32,22,10,2,10,45.45,0.45,0.09,64.51,2
+Cristhian Stuani,37,ST,Girona,6,4,12,4,1,-2,-33.33,0.33,0.08,16.73,0
+Aleix García,24,CM,Girona,12,16,16,1,2,4,33.33,0.06,0.12,24.66,1
+Raúl García,37,ST,Athletic Bilbao,8,6,14,5,1,-2,-25.0,0.36,0.07,23.0,1
+Iñaki Williams,30,LW,Athletic Bilbao,18,20,22,6,2,2,11.11,0.27,0.09,39.19,2
+Nico Williams,22,RW,Athletic Bilbao,28,45,18,4,3,17,60.71,0.22,0.17,49.59,2
