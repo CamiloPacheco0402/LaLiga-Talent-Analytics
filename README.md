@@ -1,10 +1,10 @@
 # LaLiga Talent Analytics · 2025-26
 
+![LaLiga Talent Analytics](dashboards/cover.png)
+
 End-to-end football analytics project: **424 LaLiga players from the 2025-26 season**, built from public Transfermarkt data, scored with a transparent Talent Score, segmented with K-Means, and presented in a 5-page **Power BI** dashboard.
 
 **Stack:** Python (pandas, scikit-learn, matplotlib) · Power BI (Power Query, DAX) · Git
-
-![Top 15 prospects](dashboards/top_prospects_ranking.png)
 
 ---
 
@@ -51,6 +51,8 @@ A transparent, percentile-based heuristic, so a single outlier cannot dominate:
 | 20% | Youth | younger = higher |
 
 The weighted percentile is rescaled to 0–100.
+
+![Top 15 prospects](dashboards/top_prospects_ranking.png)
 
 ### Segmentation (K-Means, k = 3)
 Standardised features: age, log market value, value growth (clipped), goals/90, assists/90, minutes.
