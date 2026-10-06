@@ -1,16 +1,16 @@
-Player,Age,Position,Team,Current_Value_M,Potential_Gap,Potential_Pct,Talent_Score,Cluster
-Vinícius Jr,24,LW,Real Madrid,85,10,11.76,100.0,1
-Robert Lewandowski,36,ST,Barcelona,30,-5,-16.67,86.43,0
-Rodrygo Goes,23,RW,Real Madrid,65,10,15.38,80.07,1
-Alexander Sørloth,25,ST,Real Sociedad,40,10,25.0,79.63,1
-Jude Bellingham,21,CM,Real Madrid,90,20,22.22,68.38,1
-Brahim Díaz,25,RW,Real Madrid,45,10,22.22,65.82,1
-Artem Dovbyk,26,ST,Girona,22,10,45.45,64.51,1
-Youssef En-Nesyri,26,ST,Sevilla,30,8,26.67,61.14,1
-João Félix,25,LW,Atlético Madrid,45,10,22.22,53.99,1
-Ángel Correa,29,RW,Atlético Madrid,35,3,8.57,53.96,1
-Mikel Oyarzabal,27,LW,Real Sociedad,35,7,20.0,52.5,1
-Ferrán Torres,24,RW,Barcelona,45,10,22.22,50.05,1
-Nico Williams,22,RW,Athletic Bilbao,28,17,60.71,49.59,1
-Álex Baena,25,CM,Villarreal,40,10,25.0,49.41,1
-Takefusa Kubo,23,RW,Real Sociedad,32,10,31.25,48.69,1
+Player,Age,Position,Team,Apps,Minutes,Goals,Assists,Current_Value_M,Market_Value_M,Potential_Pct,Talent_Score,Segment
+Arda Güler,20,CM,Real Madrid,33,2027,4,9,45.0,90.0,100.0,100.0,Established performers
+Fermín López,22,CM,Barcelona,30,1798,6,9,50.0,100.0,100.0,98.88,Established performers
+Lamine Yamal,18,RW,Barcelona,28,2270,16,12,200.0,200.0,0.0,96.65,Established performers
+Marc Bernal,18,CM,Barcelona,22,787,2,1,5.0,30.0,500.0,96.46,Rising prospects
+Carlos Espí,20,ST,Levante,25,1339,11,0,2.0,20.0,900.0,95.47,Rising prospects
+Williot Swedberg,21,LW,Celta Vigo,29,1268,5,5,5.0,20.0,300.0,95.24,Rising prospects
+Marc Pubill,22,CB,Atlético Madrid,19,1382,1,1,4.0,35.0,775.0,94.55,Rising prospects
+Oso,22,LB,Sevilla,21,1409,2,3,0.2,10.0,4900.0,94.42,Rising prospects
+Orri Óskarsson,21,ST,Real Sociedad,20,830,9,0,15.0,20.0,33.3,93.26,Established performers
+Thiago Pitarch,18,CM,Real Madrid,10,597,0,2,3.0,20.0,566.7,93.13,Rising prospects
+Dean Huijsen,20,CB,Real Madrid,28,2037,2,2,60.0,60.0,0.0,93.09,Established performers
+Carlos Romero,24,LB,Espanyol,36,3195,6,3,5.0,25.0,400.0,93.05,Rising prospects
+Abde Ezzalzouli,24,LW,Real Betis,29,2255,10,9,12.0,40.0,233.3,93.02,Rising prospects
+Pedri,23,CM,Barcelona,29,2110,2,9,140.0,150.0,7.1,91.64,Established performers
+Alberto Moleiro,22,LW,Villarreal,37,2491,10,6,25.0,50.0,100.0,91.37,Established performers

@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw Kaggle/Transfermarkt files (large; download separately, see README)
+data/appearances.csv
+data/games.csv
+data/clubs.csv
+data/players.csv
+data/player_valuations.csv
+data/*.zip
